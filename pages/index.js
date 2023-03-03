@@ -1,7 +1,13 @@
+import styled from "styled-components";
+
 export default function Home() {
   return (
     <main>
-      <h1>🐋Capstone Whales Template🐋</h1>
+      <Heading>🐋Capstone Whales Template🐋</Heading>
     </main>
   );
 }
+
+const Heading = styled.h1`
+text-align: center;
+`;
